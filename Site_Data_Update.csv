@@ -1,0 +1,22 @@
+TowerSite,lat,lon,SiteID,Box,PI,MostRecentFlightIDforBox,Date,DataSource,MostRecentDataAvailable,Note
+TwitchellIsland,38.1055,-121.6521,US-Twt,SF Bay,Baldocchi,f141124t01,41967.0,Ameriflux,9/4/2014 L1; 2010 L2,
+ShermanIsland,38.0373,-121.7536,US-Snd,SF Bay,Baldocchi,f141124t02,41967.0,Ameriflux,11/10/2014 L1; 2010 L2,
+MayberryWetland,38.0498,-121.7651,US-Myb,SF Bay,Baldocchi,f141124t03,41967.0,Ameriflux,10/28/2014 L1,
+Diablo,37.6773,-121.5296,US-Dia,SF Bay,Sonia Wharton,f141124t04,41967.0,Ameriflux,12/31/2014 L1; 2012 L2,
+BlodgettForest,38.8952,-120.6327,US-Blo,Tahoe,Baldocchi,f141117t01,41960.0,Ameriflux,2007 L1+,Ameriflux says not active
+TonziRanch,38.4316,-120.966,US-Ton,Tahoe,Baldocchi,f141117t01,41960.0,Ameriflux,12/31/2013 L1/2; 2007 L3,
+VairaRanch,38.4067,-120.9507,US-Var,Tahoe,Baldocchi,f141117t01,41960.0,Ameriflux,12/31/2013 L1/2; 2007 L3,
+SierranMixedConifer,37.06746,-119.1951,MCON/p301/ US-SCm,NEON/ Yosemite,Goulden,f141006t01,41918.0,Goulden Data Page,July 2014,
+SoaprootPonderosaPineForest,37.03101,-119.2569,SOAP,NEON/ Yosemite,Goulden,f141006t02,41918.0,Goulden Data Page,July 2014,
+OakPineWoodland,37.10873,-119.7313,SJER,NEON/ Yosemite,Goulden,f141006t03,41918.0,Goulden Data Page,July 2014,
+KingsburgPeach,36.45825,-119.5794,,NEON/ Yosemite,Ray Anderson,f141006t05,41918.0,USDA File Share,9/30/2014,
+Desert,33.652,-116.372,,So Cal,Goulden,f140826t01,41877.0,Goulden Data Page,March 2014,
+DesertChaparral,33.61,-116.45,,So Cal,Goulden,f140826t01,41877.0,Goulden Data Page,July 2014,
+PinyonJuniper,33.605,-116.455,,So Cal,Goulden,f140826t01,41877.0,Goulden Data Page,July 2014,
+OakPineForestJamesReserve,33.80795,-116.7717,SJJR,So Cal,Goulden,f140826t01,41877.0,Goulden Data Page,July 2014,
+Grassland,33.737,-117.695,CSGR,So Cal,Goulden,f140826t01,41877.0,Goulden Data Page,July 2014,
+CoastalSage,33.734,-117.696,CSGR,So Cal,Goulden,f140826t01,41877.0,Goulden Data Page,July 2014,
+SkyOaksNew,33.38443,-116.6402,US-SO4,So Cal,Walter Oechel,f140826t01,41877.0,Ameriflux,2008 L1; 2006 L2+,
+SkyOaksYoung,33.3772,-116.6227,US-SO3,So Cal,Walter Oechel,f140826t01,41877.0,Ameriflux,2008 L1; 2006 L2+,
+SkyOaksOld,33.3739,-116.6229,US-SO2,So Cal,Walter Oechel,f140826t01,41877.0,Ameriflux,2009 L1; 2006 L2+,
+SanJoaquinFreshwaterMarshTower2,33.66,-117.85,US-SJ2,So Cal,Goulden,f140826t01,41877.0,Ameriflux,2009,Potentially two towers at this location

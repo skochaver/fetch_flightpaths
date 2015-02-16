@@ -1,7 +1,7 @@
 import arcpy
 import requests
 import os
-
+#Make sure you are using an installation of Python with arcpy
 
 flight_kml_uri = "https://www.google.com/fusiontables/exporttable?query=select+col48+from+2214916+&o=kmllink&g=col48"
 download_kml_name = 'flight_paths.kml'

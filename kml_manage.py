@@ -1,14 +1,6 @@
 import arcpy
 import requests
 import os
-#Make sure you are using an installation of Python with arcpy
-
-flight_kml_uri = "https://www.google.com/fusiontables/exporttable?query=select+col48+from+2214916+&o=kmllink&g=col48"
-download_kml_name = 'flight_paths.kml'
-output_gdb_name = 'path_output_gdb'
-output_shapefile = 'flight_paths.shp'
-
-keep_shapefile = False
 
 def download_path_kml(download_kml_name, flight_kml_uri):
     '''
@@ -34,7 +26,7 @@ def download_path_kml(download_kml_name, flight_kml_uri):
             handle.flush()
     return os.path.abspath(download_kml_name)
 
-def db_conversion(output_shapefile, path_output_gdb):
+def db_conversion(download_kml_name, output_shapefile, output_gdb_name):
     '''
     Converts KML to a database object (this is they way arcpy works). Converts the database object to a shapefile
     using the KML default creation Polygons feature class. Deletes the then-obsolete .gdb for cleanliness.
@@ -54,7 +46,7 @@ def db_conversion(output_shapefile, path_output_gdb):
     arcpy.Rename_management("Polygons.shp", output_shapefile)
 
     # Delete the .gdb to keep the environment clean
-    arcpy.Delete_management(path_output_gdb+'.gdb')
+    arcpy.Delete_management(output_gdb_name+'.gdb')
 
     return os.path.abspath(output_shapefile)
 

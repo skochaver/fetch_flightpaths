@@ -36,7 +36,7 @@ def xlsx_to_csv(xlsx_file, sheet_name, csv_name=''):
 
     new_csv.close()
 
-    return csv_name
+    return os.path.abspath(csv_name)
 
 
 def alpha_string_parse(raw_string):

@@ -7,4 +7,4 @@ All of the functionality is wrapped up in fetch_runner.py using absolute paths t
 
 All you need to do is change the "excel_file" variable in fetch_runner.py to point to the excel file that has your points (and change the "data_sheet" variable if it is not in Sheet1). The other variables can be changed to avoid name collisions or to keep track of multiple downloads.
 
-Questions? Email: skochaver@gmail.com
+Questions? Email: kochaver.python@gmail.com
